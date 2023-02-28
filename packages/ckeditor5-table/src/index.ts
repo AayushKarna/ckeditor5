@@ -61,4 +61,4 @@ export type { default as TableBorderWidthCommand } from './tableproperties/comma
 export type { default as TableHeightCommand } from './tableproperties/commands/tableheightcommand';
 export type { default as TableWidthCommand } from './tableproperties/commands/tablewidthcommand';
 
-import '../plugin';
+import './plugin';

@@ -4,8 +4,10 @@
  */
 
 import type {
+	// Config
 	TableConfig,
 
+	// Plugins
 	Table,
 	TableCaption,
 	TableCaptionEditing,
@@ -29,6 +31,7 @@ import type {
 	TableUtils,
 	PlainTableOutput,
 
+	// Commands
 	InsertColumnCommand,
 	InsertRowCommand,
 	InsertTableCommand,
@@ -58,10 +61,10 @@ import type {
 	TableBorderWidthCommand,
 	TableHeightCommand,
 	TableWidthCommand
-} from './src';
+} from './';
 
 declare module '@ckeditor/ckeditor5-core' {
-  interface EditorConfig {
+	interface EditorConfig {
 
 		/**
 		 * The configuration of the {@link module:table/table~Table} feature.
@@ -72,37 +75,37 @@ declare module '@ckeditor/ckeditor5-core' {
 	}
 
 	interface PluginsMap {
-    [ Table.pluginName ]: Table;
-    [ TableCaption.pluginName ]: TableCaption;
-    [ TableCaptionEditing.pluginName ]: TableCaptionEditing;
+		[ Table.pluginName ]: Table;
+		[ TableCaption.pluginName ]: TableCaption;
+		[ TableCaptionEditing.pluginName ]: TableCaptionEditing;
 		[ TableCaptionUI.pluginName ]: TableCaptionUI;
-    [ TableCellProperties.pluginName ]: TableCellProperties;
+		[ TableCellProperties.pluginName ]: TableCellProperties;
 		[ TableCellPropertiesEditing.pluginName ]: TableCellPropertiesEditing;
 		[ TableCellPropertiesUI.pluginName ]: TableCellPropertiesUI;
-    [ TableCellWidthEditing.pluginName ]: TableCellWidthEditing;
-    [ TableClipboard.pluginName ]: TableClipboard;
-    [ TableColumnResize.pluginName ]: TableColumnResize;
+		[ TableCellWidthEditing.pluginName ]: TableCellWidthEditing;
+		[ TableClipboard.pluginName ]: TableClipboard;
+		[ TableColumnResize.pluginName ]: TableColumnResize;
 		[ TableColumnResizeEditing.pluginName ]: TableColumnResizeEditing;
-    [ TableEditing.pluginName ]: TableEditing;
-    [ TableKeyboard.pluginName ]: TableKeyboard;
-    [ TableMouse.pluginName ]: TableMouse;
-    [ TableProperties.pluginName ]: TableProperties;
+		[ TableEditing.pluginName ]: TableEditing;
+		[ TableKeyboard.pluginName ]: TableKeyboard;
+		[ TableMouse.pluginName ]: TableMouse;
+		[ TableProperties.pluginName ]: TableProperties;
 		[ TablePropertiesEditing.pluginName ]: TablePropertiesEditing;
 		[ TablePropertiesUI.pluginName ]: TablePropertiesUI;
-    [ TableSelection.pluginName ]: TableSelection;
-    [ TableToolbar.pluginName ]: TableToolbar;
-    [ TableUI.pluginName ]: TableUI;
-    [ TableUtils.pluginName ]: TableUtils;
+		[ TableSelection.pluginName ]: TableSelection;
+		[ TableToolbar.pluginName ]: TableToolbar;
+		[ TableUI.pluginName ]: TableUI;
+		[ TableUtils.pluginName ]: TableUtils;
 		[ PlainTableOutput.pluginName ]: PlainTableOutput;
 	}
 
-  interface CommandsMap {
+	interface CommandsMap {
 		insertTableColumnLeft: InsertColumnCommand;
 		insertTableColumnRight: InsertColumnCommand;
-    insertTableRowAbove: InsertRowCommand;
+		insertTableRowAbove: InsertRowCommand;
 		insertTableRowBelow: InsertRowCommand;
-    insertTable: InsertTableCommand;
-    mergeTableCellRight: MergeCellCommand;
+		insertTable: InsertTableCommand;
+		mergeTableCellRight: MergeCellCommand;
 		mergeTableCellLeft: MergeCellCommand;
 		mergeTableCellDown: MergeCellCommand;
 		mergeTableCellUp: MergeCellCommand;
