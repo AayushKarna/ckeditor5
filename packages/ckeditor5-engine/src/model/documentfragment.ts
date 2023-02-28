@@ -35,7 +35,7 @@ export default class DocumentFragment extends TypeCheckable implements Iterable<
 	 * which will be set as Markers to {@link module:engine/model/model~Model#markers model markers collection}
 	 * when DocumentFragment will be inserted to the document.
 	 */
-	public readonly markers: Map<string, Range> = new Map();
+	public markers: Map<string, Range> = new Map();
 
 	/**
 	 * Artificial element name. Returns `undefined`. Added for compatibility reasons.

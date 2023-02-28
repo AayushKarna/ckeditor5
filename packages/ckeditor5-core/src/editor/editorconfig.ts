@@ -432,7 +432,7 @@ import type Editor from './editor';
 export interface EditorConfig {
 	context?: Context;
 	extraPlugins?: Array<PluginConstructor<Editor>>;
-	initialData?: string;
+	initialData?: string | Record<string, string>;
 	language?: string | LanguageConfig;
 	placeholder?: string;
 	plugins?: Array<PluginConstructor<Editor> | string>;
