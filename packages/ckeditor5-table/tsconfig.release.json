@@ -2,7 +2,7 @@
   "extends": "../../tsconfig.release.json",
   "include": [
     "src",
-    "src/plugin.ts",
+    "src/augmentation.ts",
     "../../typings/"
   ],
   "exclude": [
