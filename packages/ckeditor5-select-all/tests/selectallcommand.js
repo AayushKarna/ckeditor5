@@ -8,7 +8,7 @@ import SelectAllEditing from '../src/selectallediting';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import ImageBlockEditing from '@ckeditor/ckeditor5-image/src/image/imageblockediting';
 import ImageCaptionEditing from '@ckeditor/ckeditor5-image/src/imagecaption/imagecaptionediting';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
+import { TableEditing } from '@ckeditor/ckeditor5-table';
 import { setData, getData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
 
 describe( 'SelectAllCommand', () => {

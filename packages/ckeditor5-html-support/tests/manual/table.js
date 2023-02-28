@@ -11,8 +11,7 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
-import Table from '@ckeditor/ckeditor5-table/src/table';
-import TableCaption from '@ckeditor/ckeditor5-table/src/tablecaption';
+import { Table, TableCaption } from '@ckeditor/ckeditor5-table';
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
 
 import GeneralHtmlSupport from '../../src/generalhtmlsupport';

@@ -27,10 +27,12 @@ import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
-import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
-import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
-import TableCaption from '@ckeditor/ckeditor5-table/src/tablecaption';
-import TableColumnResize from '@ckeditor/ckeditor5-table/src/tablecolumnresize';
+import {
+	TableCellProperties,
+	TableProperties,
+	TableCaption,
+	TableColumnResize
+} from '@ckeditor/ckeditor5-table';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';

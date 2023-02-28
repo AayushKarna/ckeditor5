@@ -19,7 +19,7 @@ import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import Link from '@ckeditor/ckeditor5-link/src/link';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import { Table } from '@ckeditor/ckeditor5-table';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 
 import GeneralHtmlSupport from '../../src/generalhtmlsupport';

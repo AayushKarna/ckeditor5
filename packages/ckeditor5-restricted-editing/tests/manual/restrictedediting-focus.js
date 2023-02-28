@@ -7,7 +7,7 @@
 
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 import ArticlePluginSet from '@ckeditor/ckeditor5-core/tests/_utils/articlepluginset';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import { Table } from '@ckeditor/ckeditor5-table';
 
 import StandardEditingMode from '../../src/standardeditingmode';
 import RestrictedEditingMode from '../../src/restrictededitingmode';

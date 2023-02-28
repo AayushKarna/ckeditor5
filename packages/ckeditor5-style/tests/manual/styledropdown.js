@@ -32,9 +32,11 @@ import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting'
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
-import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
-import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
-import TableCaption from '@ckeditor/ckeditor5-table/src/tablecaption';
+import {
+	TableCellProperties,
+	TableProperties,
+	TableCaption
+} from '@ckeditor/ckeditor5-table';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import TextPartLanguage from '@ckeditor/ckeditor5-language/src/textpartlanguage';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';

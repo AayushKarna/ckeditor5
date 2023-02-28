@@ -5,9 +5,7 @@
 
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import Table from '@ckeditor/ckeditor5-table/src/table';
-import TableCaption from '@ckeditor/ckeditor5-table/src/tablecaption';
-import TableColumnResize from '@ckeditor/ckeditor5-table/src/tablecolumnresize';
+import { Table, TableCaption, TableColumnResize } from '@ckeditor/ckeditor5-table';
 import { priorities } from 'ckeditor5/src/utils';
 
 import GeneralHtmlSupport from '../../src/generalhtmlsupport';

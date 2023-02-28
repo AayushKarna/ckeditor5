@@ -13,7 +13,7 @@ import ImageBlock from '@ckeditor/ckeditor5-image/src/imageblock';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import { Table } from '@ckeditor/ckeditor5-table';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 import { setData, getData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
 

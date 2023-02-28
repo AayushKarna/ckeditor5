@@ -11,7 +11,7 @@ import { modelList } from '../_utils/utils';
 
 import IndentEditing from '@ckeditor/ckeditor5-indent/src/indentediting';
 import BlockQuoteEditing from '@ckeditor/ckeditor5-block-quote/src/blockquoteediting';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import { Table } from '@ckeditor/ckeditor5-table';
 import CodeBlockEditing from '@ckeditor/ckeditor5-code-block/src/codeblockediting';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';

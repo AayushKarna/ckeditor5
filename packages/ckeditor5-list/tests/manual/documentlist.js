@@ -17,7 +17,11 @@ import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage';
 import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak';
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
-import TableCaption from '@ckeditor/ckeditor5-table/src/tablecaption';
+import {
+	Table,
+	TableToolbar,
+	TableCaption
+} from '@ckeditor/ckeditor5-table';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
@@ -34,8 +38,6 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import Table from '@ckeditor/ckeditor5-table/src/table';
-import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 
 import { CS_CONFIG } from '@ckeditor/ckeditor5-cloud-services/tests/_utils/cloud-services-config';

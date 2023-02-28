@@ -11,7 +11,7 @@ import ClipboardPipeline from '@ckeditor/ckeditor5-clipboard/src/clipboardpipeli
 import BlockQuoteEditing from '@ckeditor/ckeditor5-block-quote/src/blockquoteediting';
 import HeadingEditing from '@ckeditor/ckeditor5-heading/src/headingediting';
 import IndentEditing from '@ckeditor/ckeditor5-indent/src/indentediting';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
+import { TableEditing } from '@ckeditor/ckeditor5-table';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import CKEditorError from '@ckeditor/ckeditor5-utils/src/ckeditorerror';
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';

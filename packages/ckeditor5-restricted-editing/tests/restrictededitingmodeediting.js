@@ -20,7 +20,7 @@ import RestrictedEditingModeEditing from './../src/restrictededitingmodeediting'
 import RestrictedEditingModeNavigationCommand from '../src/restrictededitingmodenavigationcommand';
 import ItalicEditing from '@ckeditor/ckeditor5-basic-styles/src/italic/italicediting';
 import BlockQuoteEditing from '@ckeditor/ckeditor5-block-quote/src/blockquoteediting';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
+import { TableEditing } from '@ckeditor/ckeditor5-table';
 import Command from '@ckeditor/ckeditor5-core/src/command';
 import env from '@ckeditor/ckeditor5-utils/src/env';
 

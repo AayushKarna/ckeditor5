@@ -14,8 +14,10 @@ import Undo from '@ckeditor/ckeditor5-undo/src/undo';
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 import Widget from '@ckeditor/ckeditor5-widget/src/widget';
-import Table from '@ckeditor/ckeditor5-table/src/table';
-import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import {
+	Table,
+	TableToolbar
+} from '@ckeditor/ckeditor5-table';
 import { toWidget } from '@ckeditor/ckeditor5-widget/src/utils';
 import {
 	parse as parseModel,

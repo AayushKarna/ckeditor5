@@ -7,7 +7,7 @@ import LinkEditing from '../../src/linkediting';
 
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
+import { TableEditing } from '@ckeditor/ckeditor5-table';
 import ClipboardPipeline from '@ckeditor/ckeditor5-clipboard/src/clipboardpipeline';
 import { getData as getModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
 import { parse as parseView } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';

@@ -10,15 +10,17 @@ import ArticlePluginSet from '@ckeditor/ckeditor5-core/tests/_utils/articleplugi
 
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
-import Table from '@ckeditor/ckeditor5-table/src/table';
-import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import {
+	Table,
+	TableToolbar,
+	TableProperties,
+	TableCellProperties,
+	TableColumnResize
+} from '@ckeditor/ckeditor5-table';
 import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
 import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak';
-import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
-import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
-import TableColumnResize from '@ckeditor/ckeditor5-table/src/tablecolumnresize';
 
 import PasteFromOffice from '../../../../src/pastefromoffice';
 

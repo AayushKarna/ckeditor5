@@ -10,7 +10,7 @@ import { clone } from 'lodash-es';
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 import ArticlePluginSet from '@ckeditor/ckeditor5-core/tests/_utils/articlepluginset';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import { Table } from '@ckeditor/ckeditor5-table';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
 import HtmlEmbed from '../../src/htmlembed';
 

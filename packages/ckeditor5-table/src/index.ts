@@ -24,6 +24,7 @@ export { default as TableCaptionEditing } from './tablecaption/tablecaptionediti
 export { default as TableCaptionUI } from './tablecaption/tablecaptionui';
 export { default as TableClipboard } from './tableclipboard';
 export { default as TableMouse } from './tablemouse';
+export { default as MouseEventsObserver } from './tablemouse/mouseeventsobserver';
 export { default as TableKeyboard } from './tablekeyboard';
 export { default as TableSelection } from './tableselection';
 export { default as TableUtils } from './tableutils';

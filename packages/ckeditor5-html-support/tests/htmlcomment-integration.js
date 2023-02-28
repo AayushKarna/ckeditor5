@@ -37,8 +37,7 @@ import MediaEmbedEditing from '@ckeditor/ckeditor5-media-embed/src/mediaembededi
 
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
 
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
-import TableCaption from '@ckeditor/ckeditor5-table/src/tablecaption';
+import { TableEditing, TableCaption } from '@ckeditor/ckeditor5-table';
 
 import HtmlComment from '../src/htmlcomment';
 

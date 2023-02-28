@@ -7,8 +7,7 @@
 
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 import ArticlePluginSet from '@ckeditor/ckeditor5-core/tests/_utils/articlepluginset';
-import Table from '@ckeditor/ckeditor5-table/src/table';
-import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import { Table, TableToolbar } from '@ckeditor/ckeditor5-table';
 
 import SourceEditing from '../../src/sourceediting';
 

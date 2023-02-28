@@ -14,7 +14,7 @@ import View from '@ckeditor/ckeditor5-ui/src/view';
 import ImageResizeButtons from '../../src/imageresize/imageresizebuttons';
 import ImageStyle from '../../src/imagestyle';
 import Undo from '@ckeditor/ckeditor5-undo/src/undo';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import { Table } from '@ckeditor/ckeditor5-table';
 
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 import { expectToThrowCKEditorError } from '@ckeditor/ckeditor5-utils/tests/_utils/utils';

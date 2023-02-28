@@ -14,7 +14,7 @@ import { setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-util
 import { add as addTranslations, _clear as clearTranslations } from '@ckeditor/ckeditor5-utils/src/translation-service';
 import Position from '@ckeditor/ckeditor5-engine/src/model/position';
 import ShiftEnter from '@ckeditor/ckeditor5-enter/src/shiftenter';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
+import { TableEditing } from '@ckeditor/ckeditor5-table';
 import env from '@ckeditor/ckeditor5-utils/src/env';
 import ListEditing from '@ckeditor/ckeditor5-list/src/list/listediting';
 import LinkEditing from '@ckeditor/ckeditor5-link/src/linkediting';

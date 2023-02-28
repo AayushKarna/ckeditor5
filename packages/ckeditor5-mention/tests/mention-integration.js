@@ -8,8 +8,7 @@
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import ClipboardPipeline from '@ckeditor/ckeditor5-clipboard/src/clipboardpipeline';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import Table from '@ckeditor/ckeditor5-table/src/table';
-import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import { Table, TableToolbar } from '@ckeditor/ckeditor5-table';
 import UndoEditing from '@ckeditor/ckeditor5-undo/src/undoediting';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import Delete from '@ckeditor/ckeditor5-typing/src/delete';

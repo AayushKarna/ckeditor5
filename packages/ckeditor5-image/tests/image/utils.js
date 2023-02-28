@@ -14,7 +14,7 @@ import { StylesProcessor } from '@ckeditor/ckeditor5-engine/src/view/stylesmap';
 import { setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
 import { parse as parseView, stringify as stringifyView } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
 
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import { Table } from '@ckeditor/ckeditor5-table';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 
 import Image from '../../src/image';

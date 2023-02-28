@@ -14,7 +14,7 @@ import UndoEditing from '@ckeditor/ckeditor5-undo/src/undoediting';
 import ClipboardPipeline from '@ckeditor/ckeditor5-clipboard/src/clipboardpipeline';
 import BlockQuoteEditing from '@ckeditor/ckeditor5-block-quote/src/blockquoteediting';
 import HeadingEditing from '@ckeditor/ckeditor5-heading/src/headingediting';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
+import { TableEditing } from '@ckeditor/ckeditor5-table';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import ImageBlockEditing from '@ckeditor/ckeditor5-image/src/image/imageblockediting';
 import ImageInlineEditing from '@ckeditor/ckeditor5-image/src/image/imageinlineediting';

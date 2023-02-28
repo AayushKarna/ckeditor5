@@ -21,8 +21,7 @@ import { getData as getViewData, parse as parseView } from '@ckeditor/ckeditor5-
 import IndentEditing from '@ckeditor/ckeditor5-indent/src/indentediting';
 
 import { getCode } from '@ckeditor/ckeditor5-utils/src/keyboard';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
-import TableKeyboard from '@ckeditor/ckeditor5-table/src/tablekeyboard';
+import { TableEditing, TableKeyboard } from '@ckeditor/ckeditor5-table';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 import { modelTable } from '@ckeditor/ckeditor5-table/tests/_utils/utils';

@@ -24,8 +24,7 @@ import List from '@ckeditor/ckeditor5-list/src/list';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import Table from '@ckeditor/ckeditor5-table/src/table';
-import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import { Table, TableToolbar } from '@ckeditor/ckeditor5-table';
 
 for ( const input of document.querySelectorAll( 'input[name=logEvents]' ) ) {
 	if ( sessionStorage.getItem( input.value ) === null ) {

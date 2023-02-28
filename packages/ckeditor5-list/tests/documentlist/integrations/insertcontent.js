@@ -13,7 +13,7 @@ import IndentEditing from '@ckeditor/ckeditor5-indent/src/indentediting';
 import BlockQuoteEditing from '@ckeditor/ckeditor5-block-quote/src/blockquoteediting';
 import MediaEmbedEditing from '@ckeditor/ckeditor5-media-embed/src/mediaembedediting';
 import CodeBlockEditing from '@ckeditor/ckeditor5-code-block/src/codeblockediting';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import { Table } from '@ckeditor/ckeditor5-table';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak';

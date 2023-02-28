@@ -10,7 +10,7 @@ import UndoEditing from '@ckeditor/ckeditor5-undo/src/undoediting';
 import ClipboardPipeline from '@ckeditor/ckeditor5-clipboard/src/clipboardpipeline';
 import BlockQuoteEditing from '@ckeditor/ckeditor5-block-quote/src/blockquoteediting';
 import HeadingEditing from '@ckeditor/ckeditor5-heading/src/headingediting';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
+import { TableEditing } from '@ckeditor/ckeditor5-table';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 import EventInfo from '@ckeditor/ckeditor5-utils/src/eventinfo';

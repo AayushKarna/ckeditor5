@@ -15,7 +15,7 @@ import Typing from '@ckeditor/ckeditor5-typing/src/typing';
 import Enter from '@ckeditor/ckeditor5-enter/src/enter';
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 import BoldEditing from '@ckeditor/ckeditor5-basic-styles/src/bold/boldediting';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
+import { TableEditing } from '@ckeditor/ckeditor5-table';
 
 import { setData, getData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
 

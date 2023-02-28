@@ -19,7 +19,7 @@ import FocusObserver from '../../../../src/view/observer/focusobserver';
 import InputObserver from '../../../../src/view/observer/inputobserver';
 import KeyObserver from '../../../../src/view/observer/keyobserver';
 import MouseObserver from '../../../../src/view/observer/mouseobserver';
-import MouseEventsObserver from '@ckeditor/ckeditor5-table/src/tablemouse/mouseeventsobserver';
+import { MouseEventsObserver } from '@ckeditor/ckeditor5-table';
 import DeleteObserver from '@ckeditor/ckeditor5-typing/src/deleteobserver';
 import ClipboardObserver from '@ckeditor/ckeditor5-clipboard/src/clipboardobserver';
 import EnterObserver from '@ckeditor/ckeditor5-enter/src/enterobserver';

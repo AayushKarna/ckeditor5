@@ -10,7 +10,7 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import { Table } from '@ckeditor/ckeditor5-table';
 import Typing from '@ckeditor/ckeditor5-typing/src/typing';
 import Undo from '@ckeditor/ckeditor5-undo/src/undo';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';

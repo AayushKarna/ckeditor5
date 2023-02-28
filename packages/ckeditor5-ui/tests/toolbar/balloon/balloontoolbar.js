@@ -16,7 +16,7 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import { Paragraph } from '@ckeditor/ckeditor5-paragraph';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
+import { TableEditing } from '@ckeditor/ckeditor5-table';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';
 import ResizeObserver from '@ckeditor/ckeditor5-utils/src/dom/resizeobserver';
 import env from '@ckeditor/ckeditor5-utils/src/env';

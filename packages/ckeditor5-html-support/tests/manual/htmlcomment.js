@@ -12,8 +12,7 @@ import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
-import Table from '@ckeditor/ckeditor5-table/src/table';
-import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import { Table, TableToolbar } from '@ckeditor/ckeditor5-table';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 
 import { CS_CONFIG } from '@ckeditor/ckeditor5-cloud-services/tests/_utils/cloud-services-config';

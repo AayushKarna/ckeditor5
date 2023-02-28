@@ -13,7 +13,7 @@ import Widget from '@ckeditor/ckeditor5-widget/src/widget';
 import WidgetToolbarRepository from '@ckeditor/ckeditor5-widget/src/widgettoolbarrepository';
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import { Table } from '@ckeditor/ckeditor5-table';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
 import ShiftEnter from '@ckeditor/ckeditor5-enter/src/shiftenter';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';

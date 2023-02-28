@@ -10,8 +10,7 @@ import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor'
 import ArticlePluginSet from '@ckeditor/ckeditor5-core/tests/_utils/articlepluginset';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
-import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
-import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
+import { TableProperties, TableCellProperties } from '@ckeditor/ckeditor5-table';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
 import Markdown from '../../src/markdown';
